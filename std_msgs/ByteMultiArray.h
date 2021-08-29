@@ -1,0 +1,11 @@
+#ifndef _STD_MSGS_BYTEMULTIARRAY_H
+#define _STD_MSGS_BYTEMULTIARRAY_H
+
+#include "std_msgs/msg/byte_multi_array.hpp" // ROS2 version of message lives here
+
+// alias ROS2's foo_msgs::msg:Bar to ROS1's foo_msgs::Bar
+namespace std_msgs {
+    typedef msg::ByteMultiArray ByteMultiArray;
+}
+
+#endif // _STD_MSGS_BYTEMULTIARRAY_H
