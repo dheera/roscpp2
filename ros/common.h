@@ -23,6 +23,14 @@ bool ok() {
     return rclcpp::ok();
 }
 
+void spin() {
+    rclcpp::spin(_node);
+}
+
+void spinOnce() {
+    // TODO
+}
+
 void shutdown() {
     rclcpp::shutdown();
 }
