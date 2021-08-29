@@ -28,7 +28,7 @@ void spin() {
 }
 
 void spinOnce() {
-    // TODO
+    rclcpp::spin_some(_node);
 }
 
 void shutdown() {
