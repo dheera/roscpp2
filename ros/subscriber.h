@@ -1,0 +1,7 @@
+namespace ros {
+
+class Subscriber {
+
+};
+
+}
