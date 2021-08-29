@@ -1,11 +1,5 @@
 namespace ros {
     
-class Rate {
-    public:
-        void sleep(double t) {
-            // todo
-        }
-    private:
-};
+typedef rclcpp::Rate Rate; // create a shim class later if we need to
 
 }
