@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+
+# This Python code is used to auto-generate the C++ code for the message and service ROS1->ROS2 shims
+# (e.g. everything in std_msgs/, sensor_msgs/, std_srvs/, etc.)
+# Its results have been committed to the repository and the user does NOT need to use this script.
+
 import requests, json, re, os, glob
 
 if not os.path.exists("tmp"):
